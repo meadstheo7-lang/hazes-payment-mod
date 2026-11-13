@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hazespaymentmod",
+  "version": "${version}",
+  "name": "Haze's Payment Mod",
+  "description": "Track incoming /pay bets, show a customisable pot HUD, and pay winners with one click.",
+  "authors": ["Haze"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.haze.paymentmod.HazePaymentMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~26.2",
+    "fabric-api": "*"
+  }
+}
